@@ -3,6 +3,8 @@ A minimalist lightdm webkit greeter theme
 
 ## Preview
 
+![Screenshot of synthgreeter](https://raw.githubusercontent.com/Landryl/synthgreeter/master/preview.png)
+
 ## Installing
 
 ### Archlinux

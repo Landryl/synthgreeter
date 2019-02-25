@@ -25,4 +25,5 @@ package()
   rm -f .gitignore
   echo "Removing dev files"
   rm -f PKGBUILD
+  rm -f preview.png
 }
