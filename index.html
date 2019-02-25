@@ -6,11 +6,13 @@
         <meta name="author" content="Landryl">    
         <title>Synthgreeter - Lightdm Webkit Greeter Theme</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/mock.js"></script>
+        <script src="js/main.js"></script>
     </head>
-    <body>
-        <form>
+    <body onload="init()">
+        <form id="form">
             <div class="login-title"></div>
-            <input type="password" autofocus></input>
+            <input type="password" autofocus id="password"></input>
         </form>
     </body>
 </html>

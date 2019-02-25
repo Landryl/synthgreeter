@@ -42,3 +42,19 @@ input{
     25% {opacity:1;}
     100% {opacity: 1;}
 }
+.shake{
+    animation: shake 0.5s;
+}
+@keyframes shake{
+    0% {left:49%}
+    10% {left:51%}
+    20% {left:49%}
+    30% {left:51%}
+    40% {left:49%}
+    50% {left:50.5%}
+    60% {left:49.5%}
+    70% {left:50.5%}
+    80% {left:49.5%}
+    90% {left:50.5%}
+    100% {left:49.5%}
+}
