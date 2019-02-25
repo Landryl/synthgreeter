@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+}
+body, html, .container{
+    height:100%;
+    width:100%;
+}
+body{
+    background:url('../img/background.png');
+    background-position: center center;
+    text-align:center;
+    position:relative;
+}
+form{
+    display:block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input{
+    width:300px;
+    padding:10px;
+    text-align: center;
+    border:none;
+    background: rgba(0, 0, 0, 0.5);
+    color:#FFF;
+}
+.login-title{
+    height:104px;
+    width:333px;
+    background-image: url('../img/title-text.png'), url('../img/title-glare.png');
+    animation: glare 2s infinite;
+}
+@keyframes glare{
+    0%   {opacity: 1;}
+    5%  {opacity: 0.7;}
+    15%  {opacity: 0.8;}
+    17%  {opacity: 0.5;}
+    25% {opacity:1;}
+    100% {opacity: 1;}
+}
